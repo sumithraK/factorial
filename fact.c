@@ -1,16 +1,17 @@
 
 #include <stdio.h>
+
  
 int main()
 {
-  int c, n, fact = 1;
+  int i, n, f = 1;
  
    scanf("%d", &n);
  
-  for (c = 1; c <= n; c++)
-    fact = fact * c;
+  for (i = 1; i <= n; i++)
+    f = f* c;
  
-  printf("%d",fact);
+  printf("%d",f);
  
   return 0;
 }
